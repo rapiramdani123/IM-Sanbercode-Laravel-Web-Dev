@@ -19,3 +19,5 @@ Route::get('/', [DashboardController::class, 'index']);
 Route::get('/login', [DashboardController::class, 'login']);
 
 Route::post('/send', [AuthController::class, 'send']);
+
+Route::get('/', [DashboardController::class, 'laravel']);

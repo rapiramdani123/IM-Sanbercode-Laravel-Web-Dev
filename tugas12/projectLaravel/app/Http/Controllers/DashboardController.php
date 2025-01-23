@@ -14,4 +14,7 @@ class DashboardController extends Controller
     public function login () {
         return view('register');
     }
+    public function laravel(){
+        return view('halaman1');
+    }
 }
